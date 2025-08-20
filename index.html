@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دانلود داستان سل بیگانه</title>
+    <link href="https://v1.fontapi.ir/css/Vazir" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazir', sans-serif;
+            direction: rtl;
+            text-align: center;
+            background: linear-gradient(135deg, #121212, #1e1e2f); /* گرادیان لوکس */
+            margin: 0;
+            padding: 30px;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 750px;
+            margin: 0 auto;
+            background: #ffffff0f; /* پس‌زمینه شیشه‌ای لوکس */
+            backdrop-filter: blur(12px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            border: 1px solid #ffffff15;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+        h1 {
+            color: #8e44ad; /* بنفش تیره لوکس */
+            font-size: 2.8em;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            color: #e0e0e0;
+            line-height: 1.9;
+            font-size: 1.15em;
+        }
+        .payment-section {
+            margin: 20px 0;
+            padding: 25px;
+            background: linear-gradient(135deg, #1c1c2e, #2a2a3b); /* گرادیان لوکس */
+            border-radius: 12px;
+            border: 1px solid #d4af37; /* حاشیه طلایی */
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        .payment-section:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3); /* سایه طلایی */
+        }
+        .download-section {
+            margin: 20px 0;
+            padding: 25px;
+            background: #ffffff0f;
+            border-radius: 12px;
+            border: 1px solid #ffffff15;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        .download-section:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+        }
+        input[type="text"] {
+            padding: 14px;
+            width: 280px;
+            margin: 15px 0;
+            border: 2px solid #8e44ad;
+            border-radius: 10px;
+            background: #ffffff0f;
+            color: #fff;
+            font-family: 'Vazir', sans-serif;
+            font-size: 1.1em;
+            transition: border-color 0.4s ease, box-shadow 0.4s ease;
+        }
+        input[type="text"]:focus {
+            border-color: #d4af37; /* طلایی */
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+            outline: none;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 14px 35px;
+            background: #8e44ad;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+            cursor: pointer;
+        }
+        .download-btn:hover {
+            background: #732d91;
+            transform: scale(1.08);
+            box-shadow: 0 5px 15px rgba(142, 68, 173, 0.5);
+        }
+        .error {
+            color: #e74c3c; /* قرمز لوکس */
+            display: none;
+            margin-top: 15px;
+            font-size: 1.1em;
+            font-weight: bold;
+            animation: shake 0.3s ease;
+        }
+        .link-container {
+            margin-top: 25px;
+            padding: 20px;
+            background: #ffffff0f;
+            backdrop-filter: blur(8px);
+            border-radius: 10px;
+            border: 1px solid #ffffff15;
+            display: none;
+            font-family: 'Vazir', sans-serif;
+            word-wrap: break-word;
+        }
+        .link-container a {
+            color: #8e44ad;
+            text-decoration: none;
+            font-size: 18px; /* فونت لینک کوچکتر */
+            font-weight: bold;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+        }
+        .link-container a:hover {
+            color: #d4af37; /* طلایی */
+            text-decoration: underline;
+        }
+        .link-container p {
+            color: #8e44ad;
+            font-size: 22px; /* فونت متن جذاب */
+            font-weight: bold;
+            margin-top: 12px;
+        }
+        .payment-section h3 {
+            color: #d4af37; /* طلایی */
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-25px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>دانلود داستان سل بیگانه</h1>
+        
+        <!-- بخش پرداخت -->
+        <div class="payment-section">
+            <h3>نحوه خرید داستان</h3>
+            <p>برای خرید داستان به مبلغ <strong>۳۵,۰۰۰ تومان</strong>، وجه را به شماره کارت زیر واریز کنید:</p>
+            <p><strong>شماره کارت: 6219861848101409</strong></p>
+            <p>به واتساپ شماره <strong>09059947584</strong> ارسال کنید.</p>
+            <p><strong>با ارسال رسید، رمز فایل را دریافت خواهید کرد.</strong></p>
+        </div>
+
+        <!-- بخش دانلود با رمز -->
+        <div class="download-section">
+            <h3>دانلود داستان</h3>
+            <p>لطفاً رمز فایل را وارد کنید تا لینک دانلود نمایش داده شود:</p>
+            <input type="text" id="password" placeholder="رمز را وارد کنید">
+            <button class="download-btn" onclick="checkPassword()">دانلود داستان</button>
+            <p id="error" class="error">رمز اشتباه است!</p>
+            <div id="linkContainer" class="link-container">
+                <p id="downloadLink"></p>
+                <p>برای دانلود لینک بالا را لمس کنید</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function checkPassword() {
+            const password = document.getElementById('password').value;
+            const error = document.getElementById('error');
+            const linkContainer = document.getElementById('linkContainer');
+            const downloadLink = document.getElementById('downloadLink');
+            const correctPassword = 'هیچ';
+            // لینک فایل PDF
+            const pdfLink = 'https://www.dropbox.com/scl/fi/a1xxm05shuyul7btadc1m/book.pdf?rlkey=ulk3snu7xrnmzk4qn57hd79nc&st=2n8ct6ei&dl=1';
+
+            if (password === correctPassword) {
+                error.style.display = 'none';
+                linkContainer.style.display = 'block';
+                downloadLink.innerHTML = `<a href="${pdfLink}" target="_blank">${pdfLink}</a>`;
+            } else {
+                error.style.display = 'block';
+                linkContainer.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
